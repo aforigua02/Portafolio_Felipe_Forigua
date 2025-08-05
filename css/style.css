@@ -1,0 +1,136 @@
+/*Estilos para portafolio*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Carl-Sans';
+    src: url('../assets/fonts/CalSans-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../assets/fonts/VarelaRound-Regular.ttf') format('woff2');
+    font-weight: lighter;
+}
+
+body{
+    background-color: #222831;
+    color: white;
+    font-family: 'VarelaRound',sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contenedor-Inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/img/sl_0210121_40570_43.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 1px 10px #424e60;
+}
+
+.img-perfil{
+    width: 300px;
+}
+
+.nombrePropio{
+    font-family: 'Carl-Sans',sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.descripcionPequenaPropia{
+    font-family: 'VarelaRound',sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/*Seccion de Saludo de bienvenida con una descripcion más amplia*/
+
+.bienvenidaDescripcion{
+    flex-direction: column;
+    height: 100vh;
+}
+.contenedorSaludoDescripcion{
+    flex-direction: column;
+}
+
+.SubTituloSeccion{
+    font-family: 'Carl-Sans',sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.descripcionCompleta{
+    height: auto;
+    font-family: 'VarelaRound',sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.imagenIcon{
+    width: 35px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.listaNavegacion a{
+    transition: transform .2s; /* Animation */
+    color: white;
+    text-decoration: none;
+    list-style: disc;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.listaNavegacion li:hover{
+    transform:scaleX(1.05);
+}
+
+/*Formacion y cursos*/
+
+.seccionFormaciones{
+    background-color: rgba(255, 251, 251, 0.095);
+}
+
+.subTituloFormacion{
+    font-family: 'VarelaRound',sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.imgFormacion {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+
+    border-radius: 8px;
+    padding: 4px;
+
+}
+
+.contenedorDescIngeneria{
+    flex-direction: column;
+}
+
+.contentItemCursos{
+    flex-direction: column;
+}
+
+
+/*Footer*/
+.nav-link{
+    color: white;
+}
+
+
