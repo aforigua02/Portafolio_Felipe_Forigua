@@ -139,8 +139,12 @@ body{
 .card-title{
     font-family: 'Carl-Sans',sans-serif;
 }
+.toolsUsed{
+    font-weight: bold;
+}
 
 .btn-colorProyecto{
+    margin-top: 8px;
     width: 100%;
     background-color: #222831;
     color: white;
