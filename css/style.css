@@ -48,6 +48,17 @@ body{
     letter-spacing: 1px;
 }
 
+.link_repo{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease;
+}
+
+.link_repo:hover{
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff; /* Cambia los valores para el tamaño y color */
+}
+
 .descripcionPequenaPropia{
     font-family: 'VarelaRound',sans-serif;
     font-weight: lighter;
@@ -68,6 +79,7 @@ body{
 .SubTituloSeccion{
     font-family: 'Carl-Sans',sans-serif;
     font-size: 40px;
+    text-align: start;
     letter-spacing: 1px;
 }
 
